@@ -1,0 +1,19 @@
+{
+    "name": "wahidin83/belajar-php-composer-hello",
+    "description": "Libray Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wahidin",
+            "email": "wahidin_83@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
